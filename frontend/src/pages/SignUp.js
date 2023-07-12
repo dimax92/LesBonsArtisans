@@ -30,7 +30,7 @@ function SignUp(){
                     console.log(error)
                     dispatch({type: "SET_MESSAGE_SIGNUP", payload: <p>Erreur</p>})
                 })
-            }}></Button>
+            }}>S'inscrire</Button>
         </form>
         {messageSignUp}
         </div>
